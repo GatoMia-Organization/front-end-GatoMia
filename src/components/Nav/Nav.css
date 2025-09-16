@@ -1,0 +1,65 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5d4a97; /* Cor de fundo roxa */
+  padding: 10px 40px;
+  color: white; /* Cor do texto */
+}
+
+.logo-title-container a {
+  display: flex; /* Para alinhar a imagem e o texto */
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo-title-container img {
+  height: 50px;
+  border-radius: 50%; /* Para o formato circular */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ccc;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-entrar,
+.btn-cadastrar {
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.btn-entrar {
+  background-color: #38c172; /* Cor verde */
+  color: white;
+  border: none;
+}
+
+.btn-cadastrar {
+  background-color: #3490dc; /* Cor azul */
+  color: white;
+  border: none;
+}
