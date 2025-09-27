@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* Estilo do container principal do footer */
+.footer-principal {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  padding: 20px 40px; /* 20px de espaço em cima/baixo, 40px nas laterais */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estilo para a seção de ícones */
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
+/* Efeito hover para mudar a cor dos ícones */
+.social-icons a:hover svg { /* Selecionando o SVG dentro do 'a' */
+  color: #25D366; /* Cor genérica, pode-se especificar por ícone se preferir */
+}
+
+.social-icons a:hover .fa-linkedin {
+  color: #0A66C2;
+}
+.social-icons a:hover .fa-instagram {
+  color: #E4405F;
+}
+
+/* Estilo para o texto de copyright */
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.footer-spacer {
+  width: 134px; /* Ajuste conforme necessário para centralização perfeita */
+}

@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #5d4a97; /* Cor de fundo roxa */
+  background: linear-gradient(to top,  #3755A8, #7869D7); /* Cor de fundo roxa */
+  font-family: 'Open Sans', sans-serif;
   padding: 10px 40px;
   color: white; /* Cor do texto */
 }
@@ -44,7 +48,9 @@
 }
 
 .btn-entrar,
-.btn-cadastrar {
+.btn-cadastrar,
+.btn-sair,
+.btn-perfil {
   padding: 10px 20px;
   border-radius: 20px;
   text-decoration: none;
@@ -62,4 +68,17 @@
   background-color: #3490dc; /* Cor azul */
   color: white;
   border: none;
+}
+.btn-sair {
+  background-color: #dc2626; /* Cor vermelha */
+  color: white;
+  border: none;
+}
+.btn-perfil {
+  background-color: #2563EB; /* Cor azul */
+  color: white;
+  border: none;
+}
+.btn-entrar:hover{
+  background-color: #1D4ED8;
 }

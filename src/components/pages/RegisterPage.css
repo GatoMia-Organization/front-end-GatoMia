@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Estilo para o fundo da página inteira */
+.login-page-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh; /* Usa 90% da altura para não colar no rodapé */
+  padding: 2rem 0;
+  background-color: #EBF4F8; /* Um tom de azul bem claro, acinzentado */
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+/* O card branco central que contém o formulário */
+.login-card {
+  background-color: white;
+  padding: 2.5rem 3rem;
+  border-radius: 20px; /* Cantos mais arredondados */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Título "Login" ou "Cadastro" */
+.login-card h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #10141a; /* Um cinza escuro, quase preto */
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+
+/* Container para cada par de 'label' e 'input' */
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #4A5568; /* Um cinza médio */
+  font-size: 0.9rem;
+}
+
+/* Estilo dos campos de texto (inputs) */
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #CBD5E0;
+  border-radius: 8px;
+  background-color: #D9D9D9;
+  color: #2D3748;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Efeito de foco para os inputs */
+.form-group input:focus {
+  outline: none;
+  border-color: #3182CE; /* Um azul para o foco */
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+}
+
+/* Botão principal de ação "Acessar" ou "Cadastrar" */
+.auth-button {
+  width: 100%;
+  background-color: #21DD31; 
+  color: black;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.auth-button:hover {
+  background-color: #10B981; /* Verde mais escuro no hover */
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+  color: #DC2626; /* Vermelho */
+  background-color: #FEE2E2;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid #FCA5A5;
+}
+
+.password-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* O 'input' dentro do wrapper precisa preencher o espaço */
+.password-input-wrapper input {
+  width: 100%;
+  padding-right: 45px; /* Adiciona espaço à direita para o ícone não sobrepor o texto */
+}
+
+/* Estilo e posicionamento do ícone de olho */
+.password-input-wrapper i {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%); /* Centraliza verticalmente o ícone */
+  cursor: pointer;
+  color: #A0AEC0; /* Um cinza médio para o ícone */
+  transition: color 0.2s;
+}
+
+.password-input-wrapper i:hover {
+  color: #4A5568; /* Escurece um pouco no hover */
+}

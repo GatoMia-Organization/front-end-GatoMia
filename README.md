@@ -14,7 +14,7 @@ Este projeto foi construído usando as seguintes tecnologias:
 -   **Design:** Figma
 -   **Organização e Gerenciamento:** Trello, Notion
 -   **Versionamento:** GitHub
--   **Banco de Dados:** SQL Server
+-   **Banco de Dados:** Firebase
 -   **Outras Ferramentas:** VS Code
 
 ---

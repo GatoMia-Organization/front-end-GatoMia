@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './Nav.css';
 
 
@@ -26,8 +26,8 @@ const Nav: React.FC<NavProps> = () =>{
       
       {/* Botões de ação */}
       <div className="nav-buttons">
-        <Link to="/entrar" className="btn btn-entrar">Entrar</Link>
-        <Link to="/cadastrar" className="btn btn-cadastrar">Cadastrar</Link>
+        <Link to="login" className="btn btn-entrar">Entrar</Link>
+        <Link to="register" className="btn btn-cadastrar">Cadastrar</Link>
       </div>
     </nav>
     );
