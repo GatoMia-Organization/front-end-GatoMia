@@ -12,7 +12,7 @@ Este projeto foi construído usando as seguintes tecnologias:
 
 -   **Frontend:** React, TypeScript, Vite
 -   **Design:** Figma
--   **Organização e Gerenciamento:** Trello, Notion
+-   **Organização e Gerenciamento:** Trello, Notion, GitProject
 -   **Versionamento:** GitHub
 -   **Banco de Dados:** Firebase
 -   **Outras Ferramentas:** VS Code
