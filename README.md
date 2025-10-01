@@ -1,69 +1,90 @@
-# React + TypeScript + Vite
+## 😺 Gato Mia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Gato Mia** é uma rede de apoio contra o abuso infantil, desenvolvida com o objetivo de oferecer um ambiente seguro e acessível para denúncias, suporte e conscientização.
 
-Currently, two official plugins are available:
+O projeto visa preencher uma lacuna no combate a esse problema, proporcionando ferramentas para vítimas, familiares e responsáveis, além de promover o debate e a educação sobre o tema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### 🚀 Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Este projeto foi construído usando as seguintes tecnologias:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+-   **Frontend:** React, TypeScript, Vite
+-   **Design:** Figma
+-   **Organização e Gerenciamento:** Trello, Notion, GitProject
+-   **Versionamento:** GitHub
+-   **Banco de Dados:** Firebase
+-   **Outras Ferramentas:** VS Code
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 🎨 Telas do Projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+A seguir, estão as telas principais da aplicação, demonstrando a jornada do usuário, da navegação até o sistema de denúncias.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **Home:** Visão geral das notícias e artigos.
+* **Sobre:** Informações e parceiros do projeto.
+* **Contato:** Formulário de contato.
+* **Login e Cadastro:** Acesso e criação de conta.
+* **Denúncia:** Formulário para registrar denúncias de forma segura.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### 📋 Status do Projeto
+
+✅ **Em Andamento**
+
+Estamos atualmente na fase de desenvolvimento do protótipo funcional. O cronograma do projeto está sendo gerenciado com foco na entrega das funcionalidades principais.
+
+---
+
+### 🎯 Funcionalidades
+
+O Gato Mia inclui as seguintes funcionalidades:
+
+* **Denúncias:** Plataforma segura para registrar denúncias anônimas ou identificadas.
+* **Suporte:** Agendamento de consultas com profissionais (psicólogos e advogados).
+* **Conteúdo Educativo:** Artigos, notícias e materiais para prevenção e conscientização.
+* **Monitoramento:** Funcionalidade em planejamento, como um botão de pânico para acionamento rápido de ajuda.
+
+---
+
+### 🗺️ Escopo
+
+**✅ Dentro:**
+* Plataforma de denúncias
+* Agendamento com profissionais
+* Publicação de artigos educativos
+* Monitoramento (próxima fase)
+
+**❌ Fora:**
+* Investigações criminais e punições (essas são responsabilidades dos órgãos competentes, como a polícia e o judiciário).
+
+---
+
+### 🤝 Equipe
+
+* **Isis Bonfim** — Team Leader, Documentação, Organização, Frontend
+* **Ana Beatriz Teixeira** — Design, Identidade Visual
+* **Victor Portolani** — Backend, Banco de Dados
+
+---
+
+### ⚙️ Como Contribuir
+
+Se você deseja contribuir para este projeto, siga os passos abaixo:
+
+1.  Faça um **fork** do repositório.
+2.  Crie uma nova **branch** para sua funcionalidade (`git checkout -b feature/sua-funcionalidade`).
+3.  Faça os **commits** das suas alterações (`git commit -m 'feat: adicione sua nova funcionalidade'`).
+4.  Faça o **push** para a branch (`git push origin feature/sua-funcionalidade`).
+5.  Abra um **Pull Request**.
+
+---
+
+### 📄 Licença
+
+*Informações sobre a licença do projeto (por exemplo, MIT, Apache, etc.).*
+
+---
