@@ -71,18 +71,6 @@ O Gato Mia inclui as seguintes funcionalidades:
 
 ---
 
-### ⚙️ Como Contribuir
-
-Se você deseja contribuir para este projeto, siga os passos abaixo:
-
-1.  Faça um **fork** do repositório.
-2.  Crie uma nova **branch** para sua funcionalidade (`git checkout -b feature/sua-funcionalidade`).
-3.  Faça os **commits** das suas alterações (`git commit -m 'feat: adicione sua nova funcionalidade'`).
-4.  Faça o **push** para a branch (`git push origin feature/sua-funcionalidade`).
-5.  Abra um **Pull Request**.
-
----
-
 ### 📄 Licença
 
 *Informações sobre a licença do projeto (por exemplo, MIT, Apache, etc.).*
