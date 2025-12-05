@@ -10,7 +10,7 @@ O projeto visa preencher uma lacuna no combate a esse problema, proporcionando f
 
 Este projeto foi construído usando as seguintes tecnologias:
 
--   **Frontend:** React, TypeScript, Vite
+-   **Frontend:** React, JavaScript, Vite
 -   **Design:** Figma
 -   **Organização e Gerenciamento:** Trello, Notion, GitProject
 -   **Versionamento:** GitHub
@@ -25,7 +25,7 @@ A seguir, estão as telas principais da aplicação, demonstrando a jornada do u
 
 * **Home:** Visão geral das notícias e artigos.
 * **Sobre:** Informações e parceiros do projeto.
-* **Contato:** Formulário de contato.
+* **Contato:** Contatos de denúncias e apoio e Formulário de contato.
 * **Login e Cadastro:** Acesso e criação de conta.
 * **Denúncia:** Formulário para registrar denúncias de forma segura.
 
@@ -35,7 +35,7 @@ A seguir, estão as telas principais da aplicação, demonstrando a jornada do u
 
 ✅ **Em Andamento**
 
-Estamos atualmente na fase de desenvolvimento do protótipo funcional. O cronograma do projeto está sendo gerenciado com foco na entrega das funcionalidades principais.
+Estamos atualmente na fase de desenvolvimento do protótipo funcional (MVP). O cronograma do projeto está sendo gerenciado com foco na entrega das funcionalidades principais.
 
 ---
 
